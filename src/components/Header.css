@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px; /* Adds some padding */
+  background-color: #f8f9fa; /* Optional: Adds a background color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the content horizontally */
+}
+
+ul {
+  display: flex;
+  list-style: none; /* Removes bullet points */
+}
+
+ul li {
+  margin: 0 15px; /* Adds space between list items */
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000; /* Set text color */
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div:last-child {
+  font-size: 24px; /* Adjust the icon size */
+  cursor: pointer; /* Makes the icon clickable */
+}
